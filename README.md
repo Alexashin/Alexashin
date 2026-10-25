@@ -1,199 +1,92 @@
-<h1 align="center">Artem Aleksashin</h1>
-
 <p align="center">
-  <b>Python Backend · Automation · Integration · IoT</b>
+  <img src="assets/banner.svg" alt="Артём Алексашин — Python, автоматизация, интеграции, IoT" width="100%">
 </p>
 
 <p align="center">
-  I build software at the intersection of backend systems, infrastructure,
-  automation and physical equipment.
+  Беру задачу «как есть» — со всеми процессами, людьми и железом вокруг неё —<br>
+  и довожу до работающей системы: от идеи и архитектуры до деплоя и сопровождения.
 </p>
 
 ---
 
-## About me
+## 💼 Чем могу быть полезен
 
-I'm a Python developer and technical engineer with hands-on experience in backend development, business automation, infrastructure and integration with physical equipment.
+- **Боты и сервисы под ваш процесс.** Telegram/MAX-боты для заявок, учёта, обучения, билетов и рассылок: с ролями, отчётами и админкой.
+- **Внутренние системы.** Веб-панели, личные кабинеты, учёт и статистика на FastAPI + PostgreSQL.
+- **Интеграция с оборудованием.** Датчики, MQTT, Zigbee, обновления в реальном времени, работа в локальной сети без интернета.
+- **Автоматизация рутины.** От выгрузок и отчётов до CAD-процессов.
+- **Развёртывание и сопровождение.** Docker, Linux-серверы, HTTPS, сети (Mikrotik), мониторинг и доработка по реальному использованию.
 
-My strongest area is solving practical engineering problems end-to-end: from understanding the real-world process and designing the architecture to deployment, maintenance and further improvement.
-
-I have experience with:
-
-- backend services and internal business systems;
-- Telegram bots and workflow automation;
-- PostgreSQL-based applications;
-- Dockerized deployments on Linux servers;
-- real-time systems using WebSocket and MQTT;
-- IoT and Zigbee integrations;
-- CAD automation and applied AI research;
-- technical infrastructure, networking and equipment maintenance;
-- research and engineering prototypes.
+Обычно я работаю так: **разобраться в процессе → найти узкое место → спроектировать → сделать → задеплоить → улучшать по обратной связи.**
 
 ---
 
-## Tech stack
+## 🚀 Избранные проекты
 
-### Backend
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square)
-![Alembic](https://img.shields.io/badge/Alembic-6BA81E?style=flat-square)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+### 💦 WaterTag: платформа для водного лазертага
+Программно-аппаратный комплекс: жилеты с Zigbee-датчиками протечки, игровая логика, панель оператора, табло для ТВ и статистика матчей. Всё работает в локальной сети без интернета.
+Отдельно пришлось решать особенность датчиков, которые шлют событие только при переходе «сухо → мокро»: у каждого жилета свой конечный автомат (готов → пауза после попадания → ожидание высыхания).
+**Стек:** FastAPI, PostgreSQL, SQLAlchemy async, Alembic, WebSocket, MQTT, Zigbee2MQTT, Docker. Автотесты и CI на GitHub Actions.
+*Код закрытый.*
 
-### Infrastructure
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+### 🌴 [Солнечные туры](https://github.com/Alexashin/suntour_bots): боты для турагентства
+Один бэкенд и одна база для Telegram и MAX. Пошаговый подбор тура, заявки менеджерам с кнопкой «Обработана» (статус синхронизируется во всех копиях сообщения), подписка и рассылки из админ-панели.
+**Стек:** aiogram, PostgreSQL, Alembic, Caddy, Docker.
 
-### Integration & realtime
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square)
-![REST API](https://img.shields.io/badge/REST_API-005571?style=flat-square)
-![Zigbee](https://img.shields.io/badge/Zigbee-EB0443?style=flat-square)
+### 🎟 [RANEPARTY Pass](https://github.com/Alexashin/eventpass): именные QR-билеты
+Покупка через Telegram-бота с ручным подтверждением чека (PDF читается как текст, сканы идут через OCR), один билет — один проход, атомарное погашение защищает от двойного прохода, роли сотрудников и журнал действий.
+**Стек:** FastAPI, PostgreSQL, Redis, Alembic, Caddy (HTTPS), Docker.
 
-### Other
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+### 🎓 Платформа обучения сотрудников
+Обучение и аттестация в Telegram: модули, уроки, тесты после каждого урока, итоговые экзамены, роли и права, редактируемый контент. Используется в реальной работе.
+**Стек:** aiogram, PostgreSQL, Docker Compose.
+*Код закрытый.*
 
----
+### 🔧 [Garage Finance Bot](https://github.com/Alexashin/garage_finance_bot): учёт финансов малого сервиса
+Бот, который заменил слишком тяжёлые для ежедневной работы финансовые приложения: доходы и расходы по категориям, резерв, роли (владелец / наблюдатель / работник), журнал действий сотрудников, экспорт в CSV.
+**Стек:** aiogram, PostgreSQL, SQLAlchemy, Alembic, Docker.
 
-## Featured projects
-
-### WaterTag
-**Hardware/software platform for interactive water laser tag**
-
-A real-time system that connects physical sensors, game logic and operator interfaces.
-
-**Stack:** Python, FastAPI, PostgreSQL, Redis, MQTT, Zigbee2MQTT, WebSocket, Docker, pytest
-
-Main areas:
-- sensor and equipment integration;
-- game state management;
-- operator interface;
-- live scoreboard;
-- statistics;
-- real-time updates;
-- Docker-based deployment;
-- automated testing and CI.
+### 📱 [VPF PWA](https://github.com/Alexashin/vpf-pwa-web): приложение для промышленного форума
+Устанавливаемая PWA-визитка XV Воронежского промышленного форума: программа, участники, схема выставки. Работает офлайн и не требует сервера.
+**Стек:** Vite, JavaScript, Bootstrap, Service Worker.
 
 ---
 
-### CAD AI
-**Research prototype for generating parametric 3D models from natural-language prompts**
+## 🛠 Стек
 
-The project explores how local LLMs can be used to transform a text request into a structured sequence of CAD operations and automatically build a model in KOMPAS-3D.
+<p>
+  <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,sqlite,redis,docker,linux,nginx,git,githubactions,cpp,cs,js,html,css&perline=8" alt="Технологии">
+</p>
 
-**Stack:** Python, local LLM, llama.cpp, COM, KOMPAS-3D API, JSON DSL
-
-Main areas:
-- prompt processing;
-- structured DSL generation;
-- CAD API integration;
-- automated model construction;
-- applied AI research.
-
----
-
-### Employee Education Platform
-**Production employee training and certification system**
-
-A configurable platform for company onboarding, training and assessment, currently used in a real working environment.
-
-**Stack:** Python, aiogram, PostgreSQL, Docker, Docker Compose
-
-Main areas:
-- training modules;
-- lessons;
-- tests after each lesson;
-- final certification;
-- additional assessments;
-- configurable roles and access;
-- editable educational content;
-- local deployment.
+| Направление | Что использую |
+|---|---|
+| **Бэкенд** | Python, FastAPI, aiogram, SQLAlchemy, Alembic, pytest |
+| **Данные** | PostgreSQL, SQLite, Redis |
+| **Real-time и IoT** | WebSocket, MQTT, Zigbee2MQTT, микроконтроллеры |
+| **Инфраструктура** | Docker, Docker Compose, Linux, Nginx / Caddy, Git, GitHub Actions, сети и Mikrotik |
+| **Фронтенд** | HTML, CSS, JavaScript, Jinja2, PWA |
+| **Дополнительно** | C++ (JUCE, Qt), C# (.NET), API КОМПАС-3D |
 
 ---
 
-### Garage Finance Bot
-**Custom financial accounting bot for a small service business**
+## 🔬 Инженерия и исследования
 
-Built for a real business process where existing finance tools were either too complex or too slow for everyday use.
+### 🥁 Samplit: мультимикрофонный барабанный инструмент
+VST3-плагин и Standalone на C++/JUCE: один MIDI-удар запускает синхронно записи с нескольких микрофонов, а каждый микрофон можно вывести на отдельный канал микшера DAW. Свой формат упакованных сэмплов, лицензирование, автотесты и проверка плагина через `pluginval`. Разрабатывается в рамках дипломной работы.
+*Код закрытый.*
 
-**Stack:** Python, aiogram, PostgreSQL, SQLAlchemy, Alembic, Docker
+### 🧠 [CAD-AI](https://github.com/Alexashin/cad-ai): 3D-модель из текстового описания
+Исследовательский прототип: локальная LLM превращает запрос на естественном языке («пластина 120×80, 4 отверстия Ø10…») в JSON-описание операций, а программа строит параметрическую модель в КОМПАС-3D через COM API.
+**Стек:** Python, llama.cpp, JSON DSL, КОМПАС-3D API.
 
-Main areas:
-- income and expense accounting;
-- financial categories;
-- user roles;
-- operation history;
-- reports and CSV export;
-- simple workflow tailored to the client.
+### 📦 3D-упаковка и автоматизация проектирования
+Алгоритм размещения объектов в контейнере на C# с построением результата в САПР. Получено свидетельство о регистрации программы для ЭВМ **№ 2025615368**.
 
----
-
-### VPF PWA
-**Production PWA for a regional industrial and technology forum**
-
-A mobile-friendly web application used during a real event to provide participants with useful information.
-
-**Stack:** JavaScript, Vite, PWA, Bootstrap, GitHub Pages
-
-Main areas:
-- event information;
-- partners and participants;
-- schedule and navigation;
-- offline mode;
-- mobile-first access;
-- production deployment.
+Интересы: автоматизация САПР, прикладной ИИ, оптимизационные алгоритмы, интеграция ПО с физическим оборудованием. Участвовал в научных работах, публикациях и конференциях.
 
 ---
 
-### 3D Packing / CAD Automation
-**Research software for optimizing 3D object placement in containers**
+## 📬 Связаться
 
-A C#-based engineering project using a 3D packing algorithm to calculate efficient placement of objects and work with the result in a CAD environment.
-
-**Stack:** C#, .NET, KOMPAS-3D API, 3D packing algorithms
-
-Related to registered software:
-
-**RU 2025615368**  
-*"Software module for constructing models for automated design of packaging and block placement"*
-
----
-
-## Research & engineering
-
-My research interests include:
-
-- CAD automation;
-- applied artificial intelligence;
-- software engineering;
-- engineering automation;
-- optimization algorithms;
-- information systems;
-- integration of software with physical equipment.
-
-I am a co-author of registered software and have participated in research work, scientific publications and technical conferences.
-
----
-
-## What I value in engineering
-
-I like projects where software solves a real operational problem.
-
-My typical workflow is:
-
-**understand the process → identify the bottleneck → design the solution → build the system → deploy it → improve it based on real usage**
-
-I am especially interested in systems where backend development intersects with infrastructure, automation, IoT and real-world equipment.
-
----
-
-## Contact
-
-- GitHub: [Alexashin](https://github.com/Alexashin)
-- Email: aleksashin.ar@gmail.com
+- ✉️ [aleksashin.ar@gmail.com](mailto:aleksashin.ar@gmail.com)
+- 🐙 [github.com/Alexashin](https://github.com/Alexashin)
