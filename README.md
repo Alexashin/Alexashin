@@ -13,16 +13,34 @@
 
 <table>
   <tr>
-    <td width="50%"><img src="assets/card-watertag.svg" alt="WaterTag" width="100%"></td>
-    <td width="50%"><img src="assets/card-samplit.svg" alt="Samplit" width="100%"></td>
+    <td width="50%" valign="top">
+      <img src="assets/card-watertag.svg" alt="WaterTag" width="100%">
+      <p>Жилеты с датчиками протечки, панель оператора и табло со счётом. Работает в локальной сети без интернета. Датчики сообщают только о переходе «сухо → мокро», поэтому у каждого жилета свой автомат состояний.</p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/card-samplit.svg" alt="Samplit" width="100%">
+      <p>Один MIDI-удар запускает записи сразу с нескольких микрофонов, и каждый микрофон можно вывести на отдельный канал в DAW. Свой формат упакованных сэмплов и лицензирование. Дипломная работа.</p>
+    </td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/Alexashin/cad-ai"><img src="assets/card-cad-ai.svg" alt="CAD-AI" width="100%"></a></td>
-    <td width="50%"><a href="https://github.com/Alexashin/eventpass"><img src="assets/card-eventpass.svg" alt="RANEPARTY Pass" width="100%"></a></td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Alexashin/cad-ai"><img src="assets/card-cad-ai.svg" alt="CAD-AI" width="100%"></a>
+      <p>Пишешь «пластина 120×80, 4 отверстия Ø10», локальная модель превращает это в JSON-описание, а скрипт строит деталь в КОМПАС-3D.</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Alexashin/eventpass"><img src="assets/card-eventpass.svg" alt="RANEPARTY Pass" width="100%"></a>
+      <p>Билет покупается через Telegram-бота, администратор подтверждает чек (PDF читается, сканы идут через OCR). Один билет, один проход, повторный вход блокируется.</p>
+    </td>
   </tr>
   <tr>
-    <td width="50%"><img src="assets/card-education.svg" alt="Обучение сотрудников" width="100%"></td>
-    <td width="50%"><a href="https://github.com/Alexashin/vpf-pwa-web"><img src="assets/card-vpf.svg" alt="VPF PWA" width="100%"></a></td>
+    <td width="50%" valign="top">
+      <img src="assets/card-education.svg" alt="Обучение сотрудников" width="100%">
+      <p>Модули, уроки, тесты после каждого урока и итоговая аттестация. Используется в реальной работе.</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Alexashin/vpf-pwa-web"><img src="assets/card-vpf.svg" alt="VPF PWA" width="100%"></a>
+      <p>Приложение для XV Воронежского промышленного форума: программа, участники, схема выставки. Ставится на телефон и работает без интернета.</p>
+    </td>
   </tr>
 </table>
 
