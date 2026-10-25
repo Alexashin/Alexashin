@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Артём Алексашин — Python, автоматизация, интеграции, IoT">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Артём Алексашин — берусь за всё интересное и довожу до работающего">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1220"/>
@@ -38,6 +38,6 @@
 
   <text x="64" y="128" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="700" fill="#f8fafc">Артём Алексашин</text>
   <rect x="66" y="148" width="96" height="5" rx="2.5" fill="url(#accent)"/>
-  <text x="64" y="196" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#cbd5e1">Python · Автоматизация · Интеграции · IoT</text>
-  <text x="64" y="234" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#94a3b8">Делаю софт, который решает реальные задачи бизнеса</text>
+  <text x="64" y="196" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#cbd5e1">Берусь за всё интересное — и довожу до рабочего</text>
+  <text x="64" y="234" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#94a3b8">От Telegram-ботов и CAD до датчиков и VST-плагинов</text>
 </svg>
