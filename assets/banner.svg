@@ -1,43 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Артём Алексашин — берусь за всё интересное и довожу до работающего">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="Артем Алексашин. Берусь за всё интересное">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1220"/>
-      <stop offset="0.55" stop-color="#101c33"/>
-      <stop offset="1" stop-color="#0e2a3a"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#34d399"/>
-    </linearGradient>
-    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.07"/>
-    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#101c33"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/></linearGradient>
   </defs>
-
-  <rect width="1200" height="280" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="280" rx="18" fill="url(#dots)"/>
-
-  <!-- «схема»: узлы и линии справа -->
-  <g stroke="url(#accent)" stroke-width="2" fill="none" opacity="0.55">
-    <path d="M820 70 H900 V140 H980"/>
-    <path d="M900 140 V210 H1040"/>
-    <path d="M980 140 H1060 V70 H1120"/>
+  <rect width="1200" height="260" rx="20" fill="url(#bg)"/>
+  <g transform="translate(740 34)">
+    <animateTransform attributeName="transform" type="translate" values="740 34;740 28;740 34" dur="4.0s" begin="0.0s" repeatCount="indefinite"/>
+    <rect width="88" height="88" rx="20" fill="#111c34" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1.5"/>
+    <g transform="translate(16 16) scale(1)"><g fill="none" stroke="#38bdf8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M28 7 C28 7 12 26 12 36 a16 16 0 0 0 32 0 C44 26 28 7 28 7 Z"/><path d="M20 38 a8 8 0 0 0 8 8"/></g></g>
   </g>
-  <g fill="#0b1220" stroke="url(#accent)" stroke-width="2.5">
-    <circle cx="820" cy="70" r="9"/>
-    <circle cx="980" cy="140" r="9"/>
-    <circle cx="1040" cy="210" r="9"/>
-    <circle cx="1120" cy="70" r="9"/>
+  <g transform="translate(850 34)">
+    <animateTransform attributeName="transform" type="translate" values="850 34;850 28;850 34" dur="4.7s" begin="0.4s" repeatCount="indefinite"/>
+    <rect width="88" height="88" rx="20" fill="#111c34" stroke="#a78bfa" stroke-opacity="0.45" stroke-width="1.5"/>
+    <g transform="translate(16 16) scale(1)"><g fill="none" stroke="#a78bfa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 20V36"/><path d="M16 12V44"/><path d="M24 6V50"/><path d="M32 14V42"/><path d="M40 20V36"/><path d="M48 25V31"/></g></g>
   </g>
-  <g fill="url(#accent)">
-    <circle cx="820" cy="70" r="3.5"/>
-    <circle cx="980" cy="140" r="3.5"/>
-    <circle cx="1040" cy="210" r="3.5"/>
-    <circle cx="1120" cy="70" r="3.5"/>
+  <g transform="translate(960 34)">
+    <animateTransform attributeName="transform" type="translate" values="960 34;960 28;960 34" dur="5.4s" begin="0.8s" repeatCount="indefinite"/>
+    <rect width="88" height="88" rx="20" fill="#111c34" stroke="#34d399" stroke-opacity="0.45" stroke-width="1.5"/>
+    <g transform="translate(16 16) scale(1)"><g fill="none" stroke="#34d399" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M28 6 L48 17 V39 L28 50 L8 39 V17 Z"/><path d="M8 17 L28 28 L48 17 M28 28 V50"/></g></g>
   </g>
-
-  <text x="64" y="128" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="700" fill="#f8fafc">Артём Алексашин</text>
-  <rect x="66" y="148" width="96" height="5" rx="2.5" fill="url(#accent)"/>
-  <text x="64" y="196" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#cbd5e1">Берусь за всё интересное — и довожу до рабочего</text>
-  <text x="64" y="234" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#94a3b8">От Telegram-ботов и CAD до датчиков и VST-плагинов</text>
+  <g transform="translate(795 138)">
+    <animateTransform attributeName="transform" type="translate" values="795 138;795 132;795 138" dur="4.0s" begin="1.2000000000000002s" repeatCount="indefinite"/>
+    <rect width="88" height="88" rx="20" fill="#111c34" stroke="#fbbf24" stroke-opacity="0.45" stroke-width="1.5"/>
+    <g transform="translate(16 16) scale(1)"><g fill="none" stroke="#fbbf24" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 14 H48 V24 a4 4 0 0 0 0 8 V42 H8 V32 a4 4 0 0 0 0 -8 Z"/><path d="M34 14 V42" stroke-dasharray="3 3"/><rect x="14" y="21" width="7" height="7"/><rect x="23" y="30" width="6" height="6"/></g></g>
+  </g>
+  <g transform="translate(905 138)">
+    <animateTransform attributeName="transform" type="translate" values="905 138;905 132;905 138" dur="4.7s" begin="1.6s" repeatCount="indefinite"/>
+    <rect width="88" height="88" rx="20" fill="#111c34" stroke="#fb7185" stroke-opacity="0.45" stroke-width="1.5"/>
+    <g transform="translate(16 16) scale(1)"><g fill="none" stroke="#fb7185" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="40" height="40" rx="6"/><path d="M16 20 l4 4 l7 -8"/><path d="M32 20 H40"/><path d="M16 36 l4 4 l7 -8"/><path d="M32 36 H40"/></g></g>
+  </g>
+  <g transform="translate(1015 138)">
+    <animateTransform attributeName="transform" type="translate" values="1015 138;1015 132;1015 138" dur="5.4s" begin="2.0s" repeatCount="indefinite"/>
+    <rect width="88" height="88" rx="20" fill="#111c34" stroke="#2dd4bf" stroke-opacity="0.45" stroke-width="1.5"/>
+    <g transform="translate(16 16) scale(1)"><g fill="none" stroke="#2dd4bf" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><rect x="16" y="6" width="24" height="44" rx="5"/><path d="M24 12 H32"/><circle cx="28" cy="43" r="1.6" fill="#2dd4bf"/></g></g>
+  </g>
+  <text x="64" y="118" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#f8fafc">Артем Алексашин</text>
+  <rect x="66" y="138" width="88" height="5" rx="2.5" fill="url(#ac)"/>
+  <text x="64" y="188" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#cbd5e1">Берусь за всё интересное</text>
+  <text x="64" y="224" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#7c8aa3">боты, железо, плагины, САПР и всё остальное</text>
 </svg>

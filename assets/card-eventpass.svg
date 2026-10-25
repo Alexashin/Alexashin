@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 140" width="480" height="140" role="img" aria-label="RANEPARTY Pass: QR-билеты с оплатой через Telegram">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#14213d"/></linearGradient></defs>
+  <rect x="0.5" y="0.5" width="479" height="139" rx="16" fill="url(#g)" stroke="#243049"/>
+  <rect x="0.5" y="24" width="4" height="92" rx="2" fill="#fbbf24"/>
+  <g transform="translate(28 42)"><g fill="none" stroke="#fbbf24" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 14 H48 V24 a4 4 0 0 0 0 8 V42 H8 V32 a4 4 0 0 0 0 -8 Z"/><path d="M34 14 V42" stroke-dasharray="3 3"/><rect x="14" y="21" width="7" height="7"/><rect x="23" y="30" width="6" height="6"/></g></g>
+  <text x="104" y="60" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700" fill="#f1f5f9">RANEPARTY Pass</text>
+  <text x="104" y="86" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#a8b3c7">QR-билеты с оплатой через Telegram</text>
+  <text x="104" y="114" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#fbbf24" opacity="0.9">FastAPI · aiogram · Redis</text>
+  
+</svg>

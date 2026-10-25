@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 140" width="480" height="140" role="img" aria-label="VPF PWA: Приложение форума, работает офлайн">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#14213d"/></linearGradient></defs>
+  <rect x="0.5" y="0.5" width="479" height="139" rx="16" fill="url(#g)" stroke="#243049"/>
+  <rect x="0.5" y="24" width="4" height="92" rx="2" fill="#2dd4bf"/>
+  <g transform="translate(28 42)"><g fill="none" stroke="#2dd4bf" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><rect x="16" y="6" width="24" height="44" rx="5"/><path d="M24 12 H32"/><circle cx="28" cy="43" r="1.6" fill="#2dd4bf"/></g></g>
+  <text x="104" y="60" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700" fill="#f1f5f9">VPF PWA</text>
+  <text x="104" y="86" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#a8b3c7">Приложение форума, работает офлайн</text>
+  <text x="104" y="114" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#2dd4bf" opacity="0.9">Vite · PWA</text>
+  
+</svg>

@@ -1,91 +1,49 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Артём Алексашин — берусь за всё интересное и довожу до работающего" width="100%">
+  <img src="assets/banner.svg" alt="Артем Алексашин" width="100%">
 </p>
 
 <p align="center">
-  Не привязан к одной специализации: беру всё, что интересно,<br>
-  разбираюсь с нуля и довожу до работающего результата.
+  <a href="https://t.me/sjahmal"><img src="https://img.shields.io/badge/Telegram-%40sjahmal-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
+  <a href="mailto:aleksashin.ar@gmail.com"><img src="https://img.shields.io/badge/Email-aleksashin.ar%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
----
+Узкой специализации у меня нет. Беру задачи, в которых надо разобраться, и довожу до рабочего результата.
 
-## 🧭 Чем занимаюсь
+## Проекты
 
-Чёткого «направления» у меня нет, и меня это устраивает. Мне интересны задачи, в которых нужно разобраться с нуля: бот для бизнеса, сервис с базой данных, датчики и реальное железо, плагин для DAW, автоматизация в САПР. Поэтому в моих репозиториях рядом лежат вещи, которые на первый взгляд никак не связаны.
+<table>
+  <tr>
+    <td width="50%"><img src="assets/card-watertag.svg" alt="WaterTag" width="100%"></td>
+    <td width="50%"><img src="assets/card-samplit.svg" alt="Samplit" width="100%"></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/Alexashin/cad-ai"><img src="assets/card-cad-ai.svg" alt="CAD-AI" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/Alexashin/eventpass"><img src="assets/card-eventpass.svg" alt="RANEPARTY Pass" width="100%"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="assets/card-education.svg" alt="Обучение сотрудников" width="100%"></td>
+    <td width="50%"><a href="https://github.com/Alexashin/vpf-pwa-web"><img src="assets/card-vpf.svg" alt="VPF PWA" width="100%"></a></td>
+  </tr>
+</table>
 
-Общее у них одно:
+## Стек
 
-- **Разбираюсь в задаче, а не только в ТЗ.** Сначала выясняю, как процесс устроен в жизни и где он буксует.
-- **Довожу до работающего.** Не демо «на словах», а развёрнутая система с ролями, тестами и удобством для ежедневной работы.
-- **Осваиваю новое по ходу дела.** Незнакомая технология для меня повод разобраться, а не отказаться.
-- **Беру весь путь:** архитектура, код, деплой и доработки по реальному использованию.
+<img src="https://skillicons.dev/icons?i=py,fastapi,postgres,sqlite,redis,docker,linux,nginx,git,githubactions,cpp,cs,js,html,css&perline=8" alt="Технологии">
 
-Обычно так: **разобраться в процессе → найти узкое место → спроектировать → сделать → задеплоить → улучшать по обратной связи.**
+Ещё: aiogram, SQLAlchemy, Alembic, MQTT, WebSocket, JUCE, Qt, Mikrotik.
 
----
+## Языки
 
-## 🚀 Избранные проекты
+<img src="assets/languages.svg" alt="Языки в моих репозиториях" width="100%">
 
-### 💦 WaterTag: платформа для водного лазертага
-Программно-аппаратный комплекс: жилеты с Zigbee-датчиками протечки, игровая логика, панель оператора, табло для ТВ и статистика матчей. Всё работает в локальной сети без интернета.
-Отдельно пришлось решать особенность датчиков, которые шлют событие только при переходе «сухо → мокро»: у каждого жилета свой конечный автомат (готов → пауза после попадания → ожидание высыхания).
-**Стек:** FastAPI, PostgreSQL, SQLAlchemy async, Alembic, WebSocket, MQTT, Zigbee2MQTT, Docker. Автотесты и CI на GitHub Actions.
-*Код закрытый.*
+## Исследования
 
-### 🧠 [CAD-AI](https://github.com/Alexashin/cad-ai): 3D-модель из текстового описания
-Исследовательский прототип: локальная LLM превращает запрос на естественном языке («пластина 120×80, 4 отверстия Ø10…») в JSON-описание операций, а программа строит параметрическую модель в КОМПАС-3D через COM API.
-**Стек:** Python, llama.cpp, JSON DSL, КОМПАС-3D API.
+Соавтор зарегистрированной программы для ЭВМ (свидетельство № 2025615368), участвовал в научных публикациях и конференциях. Интересуют САПР, прикладной ИИ и алгоритмы оптимизации.
 
-### 🎟 [RANEPARTY Pass](https://github.com/Alexashin/eventpass): именные QR-билеты
-Покупка через Telegram-бота с ручным подтверждением чека (PDF читается как текст, сканы идут через OCR), один билет — один проход, атомарное погашение защищает от двойного прохода, роли сотрудников и журнал действий.
-**Стек:** FastAPI, PostgreSQL, Redis, Alembic, Caddy (HTTPS), Docker.
+## Активность
 
-### 🎓 Платформа обучения сотрудников
-Обучение и аттестация в Telegram: модули, уроки, тесты после каждого урока, итоговые экзамены, роли и права, редактируемый контент. Используется в реальной работе.
-**Стек:** aiogram, PostgreSQL, Docker Compose.
-*Код закрытый.*
-
-### 🔧 [Garage Finance Bot](https://github.com/Alexashin/garage_finance_bot): учёт финансов малого сервиса
-Бот, который заменил слишком тяжёлые для ежедневной работы финансовые приложения: доходы и расходы по категориям, резерв, роли (владелец / наблюдатель / работник), журнал действий сотрудников, экспорт в CSV.
-**Стек:** aiogram, PostgreSQL, SQLAlchemy, Alembic, Docker.
-
-### 📱 [VPF PWA](https://github.com/Alexashin/vpf-pwa-web): приложение для промышленного форума
-Устанавливаемая PWA-визитка XV Воронежского промышленного форума: программа, участники, схема выставки. Работает офлайн и не требует сервера.
-**Стек:** Vite, JavaScript, Bootstrap, Service Worker.
-
----
-
-## 🛠 Стек
-
-<p>
-  <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,sqlite,redis,docker,linux,nginx,git,githubactions,cpp,cs,js,html,css&perline=8" alt="Технологии">
-</p>
-
-| Направление | Что использую |
-|---|---|
-| **Бэкенд** | Python, FastAPI, aiogram, SQLAlchemy, Alembic, pytest |
-| **Данные** | PostgreSQL, SQLite, Redis |
-| **Real-time и IoT** | WebSocket, MQTT, Zigbee2MQTT, микроконтроллеры |
-| **Инфраструктура** | Docker, Docker Compose, Linux, Nginx / Caddy, Git, GitHub Actions, сети и Mikrotik |
-| **Фронтенд** | HTML, CSS, JavaScript, Jinja2, PWA |
-| **Дополнительно** | C++ (JUCE, Qt), C# (.NET), API КОМПАС-3D |
-
----
-
-## 🔬 Инженерия и исследования
-
-### 🥁 Samplit: мультимикрофонный барабанный инструмент
-VST3-плагин и Standalone на C++/JUCE: один MIDI-удар запускает синхронно записи с нескольких микрофонов, а каждый микрофон можно вывести на отдельный канал микшера DAW. Свой формат упакованных сэмплов, лицензирование, автотесты и проверка плагина через `pluginval`. Разрабатывается в рамках дипломной работы.
-*Код закрытый.*
-
-### 📦 3D-упаковка и автоматизация проектирования
-Алгоритм размещения объектов в контейнере на C# с построением результата в САПР. Получено свидетельство о регистрации программы для ЭВМ **№ 2025615368**.
-
-Интересы: автоматизация САПР, прикладной ИИ, оптимизационные алгоритмы, интеграция ПО с физическим оборудованием. Участвовал в научных работах, публикациях и конференциях.
-
----
-
-## 📬 Связаться
-
-- ✉️ [aleksashin.ar@gmail.com](mailto:aleksashin.ar@gmail.com)
-- 🐙 [github.com/Alexashin](https://github.com/Alexashin)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alexashin/Alexashin/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Alexashin/Alexashin/output/github-snake.svg">
+  <img alt="Активность на GitHub" src="https://raw.githubusercontent.com/Alexashin/Alexashin/output/github-snake.svg" width="100%">
+</picture>
