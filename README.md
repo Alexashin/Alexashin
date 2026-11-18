@@ -3,11 +3,14 @@
 </p>
 
 <p align="center">
+  <a href="https://alexashin.github.io"><img src="https://img.shields.io/badge/%D0%A1%D0%B0%D0%B9%D1%82-alexashin.github.io-5A9BFC?style=flat-square" alt="Сайт-портфолио"></a>
   <a href="https://t.me/sjahmal"><img src="https://img.shields.io/badge/Telegram-%40sjahmal-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
   <a href="mailto:aleksashin.ar@gmail.com"><img src="https://img.shields.io/badge/Email-aleksashin.ar%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
 Узкой специализации у меня нет. Беру задачи, в которых надо разобраться, и довожу до рабочего результата.
+
+Кейсы со скриншотами, цены и контакты собраны на сайте: **[alexashin.github.io](https://alexashin.github.io)**.
 
 ## Проекты
 
